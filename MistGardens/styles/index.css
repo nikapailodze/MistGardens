@@ -55,6 +55,35 @@ text-transform: uppercase;
     background: var(--Primary, #475F45); 
 }
 
+.transparentButton:hover{
+    color: #FFF;
+    background: var(--Primary, #475F45); 
+}
+.greenutton:hover{
+    width:  169px;
+    height:  46px;
+    padding: 15px 30px 15px 30px;
+    gap: 10px;
+  
+    opacity: 0px;
+    border: 2px solid var(--Primary, #475F45);
+    background-color: transparent;
+    color: var(--Primary, #475F45);
+    
+/* buttons */
+font-family: Roboto;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.13125rem;
+text-transform: uppercase;
+}
+.transparentButtonWhiteBorder:hover{
+    color: #FFF;
+    background: var(--Primary, #475F45);
+}
+
 
 /* General Styles */
 
